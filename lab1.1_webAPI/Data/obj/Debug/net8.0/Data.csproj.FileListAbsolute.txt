@@ -1,0 +1,17 @@
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\bin\Debug\net8.0\Data.deps.json
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\bin\Debug\net8.0\Data.dll
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\bin\Debug\net8.0\Data.pdb
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\bin\Debug\net8.0\Share.dll
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\bin\Debug\net8.0\Share.pdb
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.csproj.Up2Date
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.dll
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.pdb
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
