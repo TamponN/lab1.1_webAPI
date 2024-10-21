@@ -1,0 +1,67 @@
+@page "/v008entities/upload"
+@using Front.Services
+@using System.Net.Http.Headers
+@using Microsoft.AspNetCore.Components.Forms
+@inject V008EntityService V008EntityService
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<h3>Загрузить файл</h3>
+
+<InputFile OnChange="HandleFileSelected" accept=".xml" />
+
+@if (selectedFile != null)
+{
+    <p>Выбран файл: @selectedFile.Name</p>
+    <button class="btn btn-primary" @onclick="UploadFile">Загрузить файл</button>
+}
+
+@if (!string.IsNullOrEmpty(statusMessage))
+{
+    <div class="alert alert-info">@statusMessage</div>
+}
+
+@code {
+    private IBrowserFile selectedFile;
+    private string statusMessage = string.Empty;
+
+    private void HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+    }
+
+    private async Task UploadFile()
+    {
+        if (selectedFile == null)
+        {
+            statusMessage = "Файл не выбран.";
+            return;
+        }
+
+        using var content = new MultipartFormDataContent();
+        var fileContent = new StreamContent(selectedFile.OpenReadStream(maxAllowedSize: 10_485_760));
+
+        // ContentType для XML-файла
+        fileContent.Headers.ContentType = new MediaTypeHeaderValue("application/xml");
+        content.Add(fileContent, "file", selectedFile.Name);
+
+        try
+        {
+            var response = await V008EntityService.UploadFileAsync(content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                statusMessage = "Файл успешно загружен!";
+                NavigationManager.NavigateTo("/v008entities");
+            }
+            else
+            {
+                statusMessage = "Ошибка при загрузке файла.";
+            }
+        }
+        catch (Exception ex)
+        {
+            statusMessage = $"Произошла ошибка: {ex.Message}";
+        }
+    }
+}

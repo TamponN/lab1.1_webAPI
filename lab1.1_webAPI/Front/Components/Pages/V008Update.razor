@@ -1,0 +1,60 @@
+@page "/v008entities/edit/{Id:int}"
+@using Front.Services
+@using Data.Model
+@inject V008EntityService V008EntityService
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<h3>Редактировать V008 Entity</h3>
+
+@if (entity == null)
+{
+    <p><em>Алё</em></p>
+}
+else
+{
+    <EditForm Model="entity" OnValidSubmit="HandleValidSubmit" FormName="V008EditForm">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="name">Наименование</label>
+            <InputText id="name" class="form-control" @bind-Value="entity.Name" />
+        </div>
+
+        <div>
+            <label for="Code">Код</label>
+            <InputText id="Code" class="form-control" @bind-Value="entity.Code" />
+        </div>
+
+        <div>
+            <label for="BeginDate">Дата начала</label>
+            <InputDate TValue="DateTime" @bind-Value="entity.BeginDate" id="BeginDate" class="form-control" />
+        </div>
+
+        <div>
+            <label for="EndDate">Дата окончания</label>
+            <InputDate TValue="DateTime" @bind-Value="entity.EndDate" id="EndDate" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private V008Entity entity;
+
+    protected override async Task OnInitializedAsync()
+    {
+        entity = await V008EntityService.GetByIdAsync(Id);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await V008EntityService.UpdateAsync(Id, entity);
+        NavigationManager.NavigateTo("/v008entities");
+    }
+}

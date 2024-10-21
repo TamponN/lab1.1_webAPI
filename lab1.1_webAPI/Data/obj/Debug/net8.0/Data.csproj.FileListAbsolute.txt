@@ -15,3 +15,4 @@ C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\ref\Data.dll
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\bin\Debug\net8.0\Data.runtimeconfig.json
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\obj\Debug\net8.0\Data.sourcelink.json

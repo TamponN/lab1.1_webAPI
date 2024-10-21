@@ -9,3 +9,4 @@ C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Share\obj\Debug\net8
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Share\obj\Debug\net8.0\refint\Share.dll
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Share\obj\Debug\net8.0\Share.pdb
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Share\obj\Debug\net8.0\ref\Share.dll
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Share\obj\Debug\net8.0\Share.sourcelink.json

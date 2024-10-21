@@ -39,6 +39,12 @@ namespace API.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] V008Entity entity)
         {
+
+            if (entity == null)
+            {
+                return BadRequest("Entity is null");
+            }
+
             await _service.AddAsync(entity);
             return CreatedAtAction(nameof(GetById), new { id = entity.Id }, entity.ToDictionaryDTO());
         }

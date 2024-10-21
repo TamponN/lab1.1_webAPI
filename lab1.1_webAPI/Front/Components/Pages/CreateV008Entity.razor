@@ -1,0 +1,46 @@
+@page "/v008entities/create"
+@using Front.Services
+@using Data.Model
+@inject V008EntityService V008EntityService
+@inject NavigationManager NavigationManager
+
+<h3>Создать новую какашку</h3>
+
+<EditForm Model="entity" OnValidSubmit="HandleValidSubmit" FormName="V008EntityForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="name">Наименование</label>
+        <InputText id="name" class="form-control" @bind-Value="entity.Name" />
+    </div>
+
+    <div>
+        <label for="Code">Код</label>
+        <InputText id="Code" class="form-control" @bind-Value="entity.Code" />
+    </div>
+
+    <div>
+        <label for="BeginDate">Дата начала</label>
+        <InputDate TValue="DateTime" @bind-Value="entity.BeginDate" id="BeginDate" class="form-control" />
+    </div>
+
+    <div>
+        <label for="EndDate">Дата окончания</label>
+        <InputDate TValue="DateTime" @bind-Value="entity.EndDate" id="EndDate" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</EditForm>
+
+@code {
+    private V008Entity entity = new V008Entity();
+
+    private async Task HandleValidSubmit()
+    {
+        // Отладка
+        Console.WriteLine($"Name: {entity.Name}, Code: {entity.Code}, BeginDate: {entity.BeginDate}, EndDate: {entity.EndDate}");
+        await V008EntityService.AddAsync(entity);
+        NavigationManager.NavigateTo("/v008entities");
+    }
+}

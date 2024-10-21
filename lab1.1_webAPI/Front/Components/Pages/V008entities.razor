@@ -1,0 +1,59 @@
+@page "/v008entities"
+@inject V008EntityService V008EntityService
+@using Front.Services
+@using Data.Model
+@rendermode InteractiveServer
+
+<h3>Список всех значений</h3>
+
+@if (entities == null)
+{
+    // Заглушка на отсутсвие значений
+    <p><em>Значения в базе данных отсутсвуют</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Код</th>
+                <th>Название</th>
+                <th>Начало</th>
+                <th>Окончание</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var entity in entities)
+            {
+                <tr>
+                    <td>@entity.Code</td>
+                    <td>@entity.Name</td>
+                    <td>@entity.BeginDate</td>
+                    <td>@entity.EndDate</td>
+                    <td>
+                        <a href="/v008entities/edit/@entity.Id">Редактировать</a> |
+                        <button @onclick="() => DeleteEntity(entity.Id)">Удалить</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/v008entities/create">Добавить новое значение</a>
+}
+
+@code {
+    private List<V008Entity> entities;
+
+    protected override async Task OnInitializedAsync()
+    {
+        entities = await V008EntityService.GetAllAsync();
+    }
+
+    private async Task DeleteEntity(int id)
+    {
+        Console.WriteLine($"Удаление записи с айдишником: {id}");
+        await V008EntityService.DeleteAsync(id);
+        entities = await V008EntityService.GetAllAsync();
+    }
+}

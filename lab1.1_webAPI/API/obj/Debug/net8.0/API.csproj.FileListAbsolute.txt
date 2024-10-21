@@ -113,3 +113,4 @@ C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\API\bin\Debug\net8.0
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\API\bin\Debug\net8.0\Share.dll
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\API\bin\Debug\net8.0\Data.pdb
 C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\API\bin\Debug\net8.0\Share.pdb
+C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\API\obj\Debug\net8.0\API.sourcelink.json
