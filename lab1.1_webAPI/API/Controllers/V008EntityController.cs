@@ -1,5 +1,4 @@
 using API.Mappers;
-using API.Services;
 using API.Services.Interfaces;
 using Data.Model;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +6,9 @@ using Share.DTOs;
 
 namespace API.Controllers
 {
+    /// <summary>
+    /// Класс контроллера для взаимодействия с сущностями V008
+    /// </summary>
     [Route("api/v1/V008Entity")]
     [ApiController]
     public class V008EntityController : ControllerBase

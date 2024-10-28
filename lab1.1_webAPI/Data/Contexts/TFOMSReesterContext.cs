@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Data.Model;
 
 /*
 Сори, но я это сразу не запомню:
@@ -9,15 +10,13 @@ using Microsoft.EntityFrameworkCore;
 
 */
 
-namespace Data.Model
+namespace Data.Contexts
 {
-    public class ApplicationContext : DbContext
+    public class TFOMSReesterContext : DbContext
     {
-        public ApplicationContext(DbContextOptions dbContextOptions) : base(dbContextOptions) // Наследуемся от базового конструктора
+        public TFOMSReesterContext (DbContextOptions dbContextOptions) : base(dbContextOptions) // Наследуемся от базового конструктора
         {   
         }
-
-        public DbSet<V008Entity> V008Entities { get; set; }
 
     }
 }

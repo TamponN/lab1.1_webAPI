@@ -11,7 +11,6 @@ namespace Data.Model
         public DateTime BeginDate { get; set; }
 
         [Display(Name = "Окончание")]
-        // Для времени используем максимально возможное значение даты и времени, которое поддерживает постгре
         public DateTime EndDate { get; set; } = DateTime.SpecifyKind(new DateTime(2099, 12, 31, 23, 59, 59), DateTimeKind.Utc);
         
         [Display(Name = "Наименование")]

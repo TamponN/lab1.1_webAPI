@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rcv6PUj5emyljq2lCEaSc9p8dJIgGS1tfKAo1XGY72c=",
+  "Hash": "vW68v8jog7rGfuwxO1Zyrdpzn+Dt+jSgZJ691wSZH9M=",
   "Source": "Front",
   "BasePath": "_content/Front",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\images\\image.jpg",
+      "SourceId": "Front",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\",
+      "BasePath": "_content/Front",
+      "RelativePath": "images/image.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.jpg"
     }
   ]
 }

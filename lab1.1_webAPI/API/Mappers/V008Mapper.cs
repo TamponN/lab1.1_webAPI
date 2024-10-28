@@ -23,7 +23,6 @@ namespace API.Mappers
         {
             return new V008Entity
             {
-                // Id = dictionaryDTO.Id,
                 BeginDate = dictionaryDTO.BeginDate,
                 EndDate = dictionaryDTO.EndDate,
                 Code = dictionaryDTO.Code,
