@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AsW/cqNpl9JDqyaYS+nFCVsAEOtCAy581fjgrK7jOF4=",
+  "Hash": "rcv6PUj5emyljq2lCEaSc9p8dJIgGS1tfKAo1XGY72c=",
   "Source": "Front",
   "BasePath": "_content/Front",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Front\\wwwroot",
       "Source": "Front",
-      "ContentRoot": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\",
       "BasePath": "_content/Front",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Никита\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\Никитос\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Никита\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Никитос\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Никита\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\Никитос\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\Никита\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\Никитос\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Никита\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Никитос\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Никита\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\Никитос\\.nuget\\packages\\mudblazor\\7.13.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Front.styles.css",
+      "Identity": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Front.styles.css",
       "SourceId": "Front",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Front",
       "RelativePath": "Front.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Front.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Front.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Front.bundle.scp.css",
+      "Identity": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Front.bundle.scp.css",
       "SourceId": "Front",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Front",
       "RelativePath": "Front.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Front.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Front.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\app.css",
       "SourceId": "Front",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\",
       "BasePath": "_content/Front",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Front",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\",
       "BasePath": "_content/Front",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Front",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\",
       "BasePath": "_content/Front",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\favicon.png",
       "SourceId": "Front",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\",
       "BasePath": "_content/Front",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

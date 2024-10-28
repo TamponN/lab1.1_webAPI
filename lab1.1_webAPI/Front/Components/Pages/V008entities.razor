@@ -33,7 +33,7 @@ else
                     <td>@entity.EndDate</td>
                     <td>
                         <a href="/v008entities/edit/@entity.Id">Редактировать</a> |
-                        <button @onclick="() => DeleteEntity(entity.Id)">Удалить</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteEntity(entity.Id)">Удалить</button>
                     </td>
                 </tr>
             }
@@ -52,7 +52,6 @@ else
 
     private async Task DeleteEntity(int id)
     {
-        Console.WriteLine($"Удаление записи с айдишником: {id}");
         await V008EntityService.DeleteAsync(id);
         entities = await V008EntityService.GetAllAsync();
     }

@@ -12,59 +12,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Front
 build_property.RootNamespace = Front
-build_property.ProjectDir = C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Front\
+build_property.ProjectDir = c:\Users\Никитос\Desktop\WEB_API\lab1.1_webAPI\lab1.1_webAPI\Front\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Front
+build_property.MSBuildProjectDirectory = c:\Users\Никитос\Desktop\WEB_API\lab1.1_webAPI\lab1.1_webAPI\Front
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/App.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Pages/CreateV008Entity.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Pages/CreateV008Entity.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVWMDA4RW50aXR5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Pages/Error.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Pages/Home.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Pages/V008entities.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Pages/V008entities.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWMDA4ZW50aXRpZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Pages/V008EntityFind.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Pages/V008EntityFind.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWMDA4RW50aXR5RmluZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Pages/V008EntityUpload.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Pages/V008EntityUpload.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWMDA4RW50aXR5VXBsb2FkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Pages/V008Update.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Pages/V008Update.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWMDA4VXBkYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Routes.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/_Imports.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Layout/MainLayout.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7f9rttbore
 
-[C:/Users/Никита/Desktop/Csharp_projects/lab1.1_webAPI/Front/Components/Layout/NavMenu.razor]
+[c:/Users/Никитос/Desktop/WEB_API/lab1.1_webAPI/lab1.1_webAPI/Front/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-rsbsazgmz3

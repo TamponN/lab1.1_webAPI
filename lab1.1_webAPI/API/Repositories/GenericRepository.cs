@@ -32,6 +32,13 @@ namespace API.Repositories
         {
             return await _сontextFactory.Set<T>().FindAsync(id);
         }
+
+        // Получение сущности по коду (синхронно)
+        public virtual V008Entity? GetByCode(string code)
+        {
+            return _сontextFactory.Set<V008Entity>().FirstOrDefault(w => w.Code == code);
+        }
+
         //Получение экземпляра по ключу(синхронно)T? GetByKey(int id);
         public virtual T? GetByKey(int id)
         {

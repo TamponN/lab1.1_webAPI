@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\API\\API.csproj": {}
+    "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\API\\API.csproj": {
+    "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\API\\obj\\",
+        "projectPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Никитос\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Никитос\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Data\\Data.csproj"
+              "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Data\\Data.csproj"
               },
-              "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj": {
-                "projectPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj"
+              "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj": {
+                "projectPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj"
               }
             }
           }
@@ -64,11 +64,19 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -98,21 +106,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Data\\Data.csproj": {
+    "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Data\\obj\\",
+        "projectPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Никитос\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Никитос\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -124,8 +132,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj": {
-                "projectPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj"
+              "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj": {
+                "projectPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj"
               }
             }
           }
@@ -155,6 +163,10 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -176,21 +188,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj": {
+    "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj",
+        "projectUniqueName": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj",
         "projectName": "Share",
-        "projectPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj",
-        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\obj\\",
+        "projectPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj",
+        "packagesPath": "C:\\Users\\Никитос\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Никитос\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -234,7 +246,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

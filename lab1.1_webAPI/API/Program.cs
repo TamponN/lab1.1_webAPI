@@ -1,5 +1,6 @@
 using API.Repositories;
 using API.Services;
+using API.Services.Interfaces;
 using Data.Model;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,12 +14,12 @@ builder.Services.AddSwaggerGen();
 
 // Подключаемся к БДшке
 builder.Services.AddDbContext<ApplicationContext>(options => {
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 // Регистрация репозитория и сервиса
 builder.Services.AddScoped<V008EntityRepository>();
-builder.Services.AddScoped<V008EntityService>();
+builder.Services.AddScoped<IV008EntityService,V008EntityService>();
 
 var app = builder.Build();
 

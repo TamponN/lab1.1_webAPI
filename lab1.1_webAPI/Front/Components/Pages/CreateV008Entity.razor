@@ -3,6 +3,7 @@
 @using Data.Model
 @inject V008EntityService V008EntityService
 @inject NavigationManager NavigationManager
+@rendermode InteractiveServer
 
 <h3>Создать новую какашку</h3>
 
@@ -38,8 +39,6 @@
 
     private async Task HandleValidSubmit()
     {
-        // Отладка
-        Console.WriteLine($"Name: {entity.Name}, Code: {entity.Code}, BeginDate: {entity.BeginDate}, EndDate: {entity.EndDate}");
         await V008EntityService.AddAsync(entity);
         NavigationManager.NavigateTo("/v008entities");
     }

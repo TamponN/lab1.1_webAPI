@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Front.bundle.scp.css",
+      "Id": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Front.bundle.scp.css",
       "PackagePath": "staticwebassets\\Front.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Front\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Front\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

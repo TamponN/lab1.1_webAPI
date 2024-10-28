@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj": {}
+    "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj": {
+    "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj",
+        "projectUniqueName": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj",
         "projectName": "Share",
-        "projectPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\Share.csproj",
-        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Никита\\Desktop\\Csharp_projects\\lab1.1_webAPI\\Share\\obj\\",
+        "projectPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\Share.csproj",
+        "packagesPath": "C:\\Users\\Никитос\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никитос\\Desktop\\WEB_API\\lab1.1_webAPI\\lab1.1_webAPI\\Share\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Никитос\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

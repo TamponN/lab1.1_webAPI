@@ -63,7 +63,7 @@ namespace API.Services
             catch (Exception ex)
             {
                 Console.WriteLine($"Ошибка при чтении XML файла: {ex.Message}\n{ex.StackTrace}");
-                throw; // Пробрасываем исключение вверх для обработки в сервисе
+                throw;
             }
 
             return entries;

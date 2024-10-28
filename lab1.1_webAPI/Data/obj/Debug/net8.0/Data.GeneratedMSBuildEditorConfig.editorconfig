@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Data
-build_property.ProjectDir = C:\Users\Никита\Desktop\Csharp_projects\lab1.1_webAPI\Data\
+build_property.ProjectDir = C:\Users\Никитос\Desktop\WEB_API\lab1.1_webAPI\lab1.1_webAPI\Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

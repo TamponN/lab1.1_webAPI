@@ -18,8 +18,19 @@ namespace Front.Services
 
         public async Task<V008Entity> GetByIdAsync(int id)
         {
-            return await _httpClient.GetFromJsonAsync<V008Entity>($"api/v1/V008Entity/{id}");
+            return await _httpClient.GetFromJsonAsync<V008Entity>($"api/v1/V008Entity/GetById{id}");
         }
+
+        // public async Task<V008Entity> GetByCodeAsync(string code)
+        // {
+        //     return await _httpClient.GetFromJsonAsync<V008Entity>($"api/v1/V008Entity/{code}");
+        // }
+
+        public async Task<V008Entity> GetByCodeAsync(string code)
+        {
+            return await _httpClient.GetFromJsonAsync<V008Entity>($"api/v1/V008Entity/{code}");
+        }
+
 
         public async Task AddAsync(V008Entity entity)
         {

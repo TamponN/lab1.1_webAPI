@@ -3,6 +3,7 @@ using Data.Model;
 using Share.DTOs;
 using API.Mappers;
 using API.Services.Interfaces;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal;
 
 namespace API.Services
 {
@@ -15,16 +16,22 @@ namespace API.Services
             _repository = repository;
         }
 
-        public IEnumerable<DictionaryDTO> GetAll()
+        public IEnumerable<V008Entity> GetAll()
         {
             var entities = _repository.GetAllWithDeleted().ToList();
-            return entities.Select(e => e.ToDictionaryDTO());
+            return entities;
         }
 
-        public async Task<DictionaryDTO?> GetByIdAsync(int id)
+        public DictionaryDTO? GetByCode(string code)
+        {
+            var entity = _repository.GetByCode(code);
+            return entity?.ToDictionaryDTO();
+        }
+
+        public async Task<V008Entity?> GetByIdAsync(int id)
         {
             var entity = await _repository.GetByKeyAsync(id);
-            return entity?.ToDictionaryDTO();
+            return entity;
         }
 
         public async Task AddAsync(V008Entity entity)
@@ -42,11 +49,12 @@ namespace API.Services
         public async Task DeleteAsync(int id)
         {
             var entity = await _repository.GetByKeyAsync(id);
-            if (entity != null)
+            if (entity == null)
             {
-                _repository.Delete(entity);
-                await _repository.SaveChangesAsync();
+                throw new KeyNotFoundException($"Entity with id {id} not found.");
             }
+            _repository.Delete(entity);
+            await _repository.SaveChangesAsync();
         }
 
         public async Task UploadFromFileAsync(IFormFile file)

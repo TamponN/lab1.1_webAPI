@@ -1,7 +1,9 @@
 using API.Mappers;
 using API.Services;
+using API.Services.Interfaces;
 using Data.Model;
 using Microsoft.AspNetCore.Mvc;
+using Share.DTOs;
 
 namespace API.Controllers
 {
@@ -9,9 +11,9 @@ namespace API.Controllers
     [ApiController]
     public class V008EntityController : ControllerBase
     {
-        private readonly V008EntityService _service;
+        private readonly IV008EntityService _service;
 
-        public V008EntityController(V008EntityService service)
+        public V008EntityController(IV008EntityService service)
         {
             _service = service;
         }
@@ -23,7 +25,20 @@ namespace API.Controllers
             return Ok(V008Entities);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{code}")]
+        public IActionResult GetByCode([FromRoute] string code)
+        {
+            var V008Entity = _service.GetByCode(code);
+
+            if (V008Entity == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(V008Entity);
+        }
+
+        [HttpGet("GetById{id}")]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
             var V008Entity = await _service.GetByIdAsync(id);
@@ -37,16 +52,14 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] V008Entity entity)
+        public async Task<IActionResult> Post([FromBody] DictionaryDTO entity)
         {
-
             if (entity == null)
             {
                 return BadRequest("Entity is null");
             }
-
-            await _service.AddAsync(entity);
-            return CreatedAtAction(nameof(GetById), new { id = entity.Id }, entity.ToDictionaryDTO());
+            await _service.AddAsync(entity.ToV008Entity());
+            return Ok();
         }
 
         [HttpPut("{id}")]
@@ -64,8 +77,15 @@ namespace API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
-            await _service.DeleteAsync(id);
-            return NoContent();
+            try
+            {
+                await _service.DeleteAsync(id);
+                return NoContent();
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
         }
 
         [HttpPost("UploadFromFile")]
@@ -79,10 +99,8 @@ namespace API.Controllers
                 await _service.UploadFromFileAsync(file);
                 return Ok("Данные успешно загружены и обновлены");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                // Логирование ошибки
-                Console.WriteLine($"Ошибка при загрузке файла: {ex.Message}\n{ex.StackTrace}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Произошла ошибка при обработке файла");
             }
         }

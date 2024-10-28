@@ -12,11 +12,14 @@
     <ValidationSummary />
 
     <div class="form-group">
-        <label for="searchId">ID</label>
-        <InputNumber id="searchId" class="form-control" @bind-Value="searchModel.Id" />
+        <label for="searchCode">Код</label>
+        <InputText id="searchCode" class="form-control" @bind-Value="searchModel.Code" />
+        <ValidationMessage For="@(() => searchModel.Code)" />
     </div>
 
-    <button type="submit" class="btn btn-primary">Поиск</button>
+    <div>
+        <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Поиск</button>
+    </div>
 </EditForm>
 
 @if (isSearching)
@@ -27,7 +30,6 @@ else if (entity != null)
 {
     <h4>Результаты поиска:</h4>
     <div>
-        <p><strong>ID:</strong> @entity.Id</p>
         <p><strong>Код:</strong> @entity.Code</p>
         <p><strong>Название:</strong> @entity.Name</p>
         <p><strong>Дата начала:</strong> @entity.BeginDate</p>
@@ -37,11 +39,6 @@ else if (entity != null)
 else if (hasSearched)
 {
     <p>Запись не найдена.</p>
-}
-
-@if (!string.IsNullOrEmpty(errorMessage))
-{
-    <div class="alert alert-danger">@errorMessage</div>
 }
 
 @code {
@@ -60,14 +57,13 @@ else if (hasSearched)
 
         try
         {
-            Console.WriteLine($"Id: {searchModel}");
-            if (searchModel.Id != null)
+            if (!string.IsNullOrEmpty(searchModel.Code))
             {
-                entity = await V008EntityService.GetByIdAsync(searchModel.Id.Value);
+                entity = await V008EntityService.GetByCodeAsync(searchModel.Code);
             }
             else
             {
-                errorMessage = "Введите ID для поиска.";
+                errorMessage = "Введите код для поиска.";
             }
         }
         catch (Exception ex)
@@ -82,13 +78,15 @@ else if (hasSearched)
     }
     public class SearchModel
     {
-        public int? Id { get; set; }
+        [Required(ErrorMessage = "*")]
+        public string? Code { get; set; }
         public static ValidationResult ValidateSearch(SearchModel model, ValidationContext context)
         {
-            if (model.Id == null)
+            if (model.Code == null)
             {
                 return new ValidationResult("Необходимо ввести ID или код для поиска.");
             }
+
             return ValidationResult.Success;
         }
     }

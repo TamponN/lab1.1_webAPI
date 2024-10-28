@@ -4,7 +4,7 @@ using Share.DTOs;
 namespace API.Mappers
 {
     /// <summary>
-    /// Класс мапера для преобразования ответа в DTO
+    /// Класс мапера для сериализации/десирилизации объектов V008Entity в DTO и обратно
     /// </summary>
     public static class V008Mapper
     {
@@ -12,12 +12,24 @@ namespace API.Mappers
         {
             return new DictionaryDTO
             {
-                Id = v008EntityModel.Id,
                 BeginDate = v008EntityModel.BeginDate,
                 EndDate = v008EntityModel.EndDate,
                 Code = v008EntityModel.Code,
                 Name = v008EntityModel.Name
             };
+        }
+
+        public static V008Entity ToV008Entity(this DictionaryDTO dictionaryDTO)
+        {
+            return new V008Entity
+            {
+                // Id = dictionaryDTO.Id,
+                BeginDate = dictionaryDTO.BeginDate,
+                EndDate = dictionaryDTO.EndDate,
+                Code = dictionaryDTO.Code,
+                Name = dictionaryDTO.Name
+            };
+
         }
     }
 }
